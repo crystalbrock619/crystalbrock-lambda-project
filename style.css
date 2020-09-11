@@ -22,6 +22,7 @@ button {
 }
 p {
     font-size: 20px;
+    margin-left: 10px;
 }
 img {
   border: solid black 2px;
