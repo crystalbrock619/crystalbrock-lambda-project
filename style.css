@@ -42,6 +42,8 @@ img {
   margin-left: auto;
   margin-right: auto;
   width: auto;
+  position: sticky;
+  top: 0;
 }
 a{
   color: #0a3d09;
@@ -51,8 +53,4 @@ a{
 }
 ul{
     font-size: 20px;
-}
-#sticky{
-    position: sticky;
-    top: 0;
 }
