@@ -1,0 +1,48 @@
+video {
+    display: block;
+    margin: auto;
+}
+h1 {
+    color: #147812;
+    height: 300;
+    width: 100%;
+    background-color: black;
+    position: sticky;
+}
+button {
+    border: solid black 3px;
+    background-color: purple;
+    padding: 5px;
+    height: 30px;
+    font-weight: bold;
+}
+p {
+    font-size: 20;
+
+}
+img {
+  border: solid black 2px;
+  height: 150px;
+  width: auto;
+  padding: 5px;
+  background-color: green;
+  margin: 5px;
+}
+.h3-personal {
+  background-color: green;
+  font-weight: bold;
+  margin-right: 1430px;
+  padding: 5px;
+  border: solid black;
+  
+}
+#header-image{
+  height: 100px;
+  width: auto;
+}
+a{
+  color: #0a3d09;
+}
+#caption{
+  text-align: center;
+}
