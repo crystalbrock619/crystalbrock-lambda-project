@@ -38,9 +38,10 @@ img {
 }
 #header-image{
   height: 200px;
-  width: auto;
+  display: block;
   margin-left: auto;
   margin-right: auto;
+  width: 50%;
 }
 a{
   color: #0a3d09;
