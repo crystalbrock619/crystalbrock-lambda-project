@@ -19,7 +19,6 @@ button {
 }
 p {
     font-size: 20;
-
 }
 img {
   border: solid black 2px;
@@ -32,7 +31,6 @@ img {
 .h3-personal {
   background-color: green;
   font-weight: bold;
-  margin-right: 1430px;
   padding: 5px;
   border: solid black;
   
