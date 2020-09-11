@@ -4,6 +4,9 @@ margin-left: 20px;
 video {
     display: block;
     margin: auto;
+    border: solid black 2px;
+    padding: 10px;
+    background-color: green;
 }
 h1 {
     color: #147812;
