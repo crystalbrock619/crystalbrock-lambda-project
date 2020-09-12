@@ -34,7 +34,7 @@ p {
     color: #3b3b39;
 }
 img {
-  border: ridge #3b3b39 2px;
+  border: 2px ridge #3b3b39;
   height: 150px;
   width: auto;
   padding: 5px;
