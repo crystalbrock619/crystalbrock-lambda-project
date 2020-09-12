@@ -96,7 +96,7 @@ table, tr, td{
         }
 tr,td{
   vertical-align: bottom;
-  border: solid black 2px;
+  border: solid #3b3b39 2px;
   }
 .column2-3-4{
   text-align: right;
