@@ -7,20 +7,22 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-  <img id="header-image" src="https://assets.codepen.io/4998924/Profile.jpg" />
-  <h1>Crystal B's First Website</h1><br>
-  <h2>Why I am attending Lambda School:</h2>
-  <p>I decided to attend <a href="https://www.lambdaschool.com">Lambda School</a> after I had to resign in lieu of being fired from my job as a professional truck driver.<br>
+  <div id="header">
+<br>
+<img id="header-image" src="https://assets.codepen.io/4998924/Profile.jpg" />
+  <h1>Crystal Brock</h1></div>
+  <h2>Why I decided to attend Lambda School:</h2>
+  <div id="main"><p class="main">I decided to attend <a href="https://www.lambdaschool.com">Lambda School</a> after I had to resign in lieu of being fired from my job as a professional truck driver.<br>
           I am very creative and I found that driving for a living was just not satisfying my need to create.<br>
           So, because I just wanted to get the day over with, I tended to take offence to anyone getting in my way or slowing me down.<br>
           As you can imagine, the driving behavior that resulted from my offence at being slowed down by other drivers did not sit well with my employer, and they ended up asking for my resignation.<br>
   </p>
-  <p>  I had been attempting to learn to code in my spare time, but found that motivation to practice coding after sitting behind a steering wheel for 60 hours a week was in short supply!<br>
+  <p class="main">  I had been attempting to learn to code in my spare time, but found that motivation to practice coding after sitting behind a steering wheel for 60 hours a week was in short supply!<br>
           So, after a couple of failed attempts to find a new driving job, I decided I wanted to go to school for web development full time.
   </p>
-  <p>  My wonderful partner agreed to support our household while I attend school and that brings us to the present.<br> 
+  <p class="main">  My wonderful partner agreed to support our household while I attend school and that brings us to the present.<br> 
           This website is for the "Launch a Website" portion of the pre-course work that Lambda recomends students complete before class starts.
-  </p><br>
+    </p></div><br>
   <button id="gitButton" onclick="visit()">Visit my Github</button>
 <h2>Personal Life:</h2>
 <h3 class="h3-personal">Hobbies</h3>
@@ -31,9 +33,9 @@
 <li>Crochet</li>
 </ul>
 <p> I am a certified open water scuba diver and regulary dive in Arkansas lakes.</p>
-<video width="auto" height="500" controls muted>
+<video controls muted>
 <source src="https://assets.codepen.io/4998924/Dive1.mp4">/></video>
-<br><p id="caption">My first dive at Greer's Ferry Lake in Heber Springs, AR</p>
+<p id="caption">My first dive at Greer's Ferry Lake in Heber Springs, AR</p>
 
 <h3 class="h3-personal">Pets</h3>
 <p>I have two cats.</p>
@@ -57,6 +59,31 @@
 </ul>
 </ul>
 <p>I am considering fostering kitties for our local rescue once I see how much time I will have to work with them.</p>
+<table id="table">
+  <thead>
+    <tr id="table-head">
+      <th>Pet Name</th>
+      <th>Color</th>
+      <th>Coat</th>
+      <th>&nbsp;</th>
+      <th>Age</th>
+      <th>&nbsp;</th>
+      </thead>
+  <tbody>
+    <tr>
+      <td>Zelda</td>
+      <td class="column2">Black</td>
+      <td class="column2-3-4" colspan="2">&nbsp;&nbsp;&nbsp;Long Hair&nbsp;</td>
+      <td class="column2-3-4" colspan="2">&nbsp;&nbsp;&nbsp;11 years&nbsp;</td>
+    </tr>
+    <tr>
+      <td>Oscar</td>
+      <td class="column2">Grey/White</td>
+      <td class="column2-3-4" colspan="2">&nbsp;&nbsp;&nbsp;Short Hair&nbsp;</td>
+      <td class="column2-3-4" colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6 years&nbsp;</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
