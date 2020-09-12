@@ -90,13 +90,13 @@ table {
   text-align: left; 
 }
 table, tr, td{
-            border: solid black 2px;
             border-collapse: collapse;
             width: 50%;
         }
 tr,td{
   vertical-align: bottom;
-}
+  border: solid black 2px;
+  }
 .column2-3-4{
   text-align: right;
 }
