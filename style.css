@@ -105,7 +105,7 @@ tr,td{
 }
 #main{
   background-color:#6e6e6b;
-  width: 50%;
+  width: 50vw;
   height: 300px;
   overflow: auto;
   padding-left: 1.5em;
