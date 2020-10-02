@@ -415,6 +415,7 @@ nav a:hover{
   padding-left: 2.5rem;
   align-self: flex-start;
   height: 36rem;
+  margin-bottom: 2.5rem;
 }
 #projects, #contact{
   border: ridge #483D8B .7rem;
