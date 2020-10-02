@@ -389,8 +389,8 @@ nav a:hover{
 /*Start CSS for main page*/
 .mainInfo{
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-flow: column wrap;
+  justify-content: space-evenly;
   align-items: center;
   height: 40rem;
   font-size: 2rem;
