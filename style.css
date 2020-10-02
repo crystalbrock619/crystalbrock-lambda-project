@@ -369,6 +369,7 @@ nav{
   align-content: flex-end;
   border: ridge #483D8B 1rem;
   padding: 2rem;
+  margin:5rem 10rem 5rem;
 }
 nav a{
   color: #1E1B2D;
