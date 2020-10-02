@@ -369,6 +369,7 @@ nav{
   align-content: flex-end;
   border: ridge #483D8B 1rem;
   padding: 2rem;
+  margin:5rem 10rem 5rem;
 }
 nav a{
   color: #1E1B2D;
@@ -387,18 +388,15 @@ nav a:hover{
 }
 /*Start CSS for main page*/
 .mainInfo{
-  position: relative;
-  right: -50rem;
-  top: -40.30rem;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-flow: column wrap;
+  justify-content: space-evenly;
   align-items: center;
-  width: 64vw;
   height: 40rem;
   font-size: 2rem;
   line-height: 2.5rem;
   background-color: #6e6e6b;
+  margin:5rem 10rem 5rem;
 }
 .mainInfo a{
   color: #1E1B2D;
@@ -416,8 +414,8 @@ nav a:hover{
   margin-top: 2.5rem;
   padding-left: 2.5rem;
   align-self: flex-start;
-  height: 40rem;
-  background-color: #6e6e6b;
+  height: 36rem;
+  margin-bottom: 2.5rem;
 }
 #projects, #contact{
   border: ridge #483D8B .7rem;
@@ -442,9 +440,10 @@ nav a:hover{
   grid-template-rows: repeat(2, 50%);
   padding-bottom: 10rem;
   margin-bottom: 20rem;
-  margin-top: -60rem;
+  margin-top: -20rem;
   column-gap: 2rem;
   row-gap:2rem;
+  
 }
 #mainGallery1{
   grid-column-start: 2;
