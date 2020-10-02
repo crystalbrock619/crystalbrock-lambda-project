@@ -3,87 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Crystal B's Precourse Project</title>
+    <title>Crystal Brock Portfolio</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-  <div id="header">
-  <img id="header-image" src="https://assets.codepen.io/4998924/Profile.jpg" />
-  <h1>Crystal Brock</h1></div>
-  <h2>Why I decided to attend Lambda School:</h2>
-  <div id="main"><p class="main">I decided to attend <a href="https://www.lambdaschool.com">Lambda School</a> after I had to resign in lieu of being fired from my job as a professional truck driver.<br>
-          I am very creative and I found that driving for a living was just not satisfying my need to create.<br>
-          So, because I just wanted to get the day over with, I tended to take offence to anyone getting in my way or slowing me down.<br>
-          As you can imagine, the driving behavior that resulted from my offence at being slowed down by other drivers did not sit well with my employer, and they ended up asking for my resignation.<br>
-  </p>
-  <p class="main">  I had been attempting to learn to code in my spare time, but found that motivation to practice coding after sitting behind a steering wheel for 60 hours a week was in short supply!<br>
-          So, after a couple of failed attempts to find a new driving job, I decided I wanted to go to school for web development full time.
-  </p>
-  <p class="main">  My wonderful partner agreed to support our household while I attend school and that brings us to the present.<br> 
-          This website is for the "Launch a Website" portion of the pre-course work that Lambda recomends students complete before class starts.
-    </p></div><br>
-  <button id="gitButton" onclick="visit()">Visit my Github</button>
-<h2>Personal Life:</h2>
-<h3 class="h3-personal">Hobbies</h3>
-<p>I am very creative and I have several crafting hobbies.</p>
-<ul id="hobbies">
-<li>Embroidery</li>
-<li>Paint-by-Number</li>
-<li>Crochet</li>
-</ul>
-<p> I am a certified open water scuba diver and regulary dive in Arkansas lakes.</p>
-<video controls muted>
-<source src="https://assets.codepen.io/4998924/Dive1.mp4">/></video>
-<p id="caption">My first dive at Greer's Ferry Lake in Heber Springs, AR</p>
+    <h1>Crystal Brock</h1>
+    <nav>
+        <a href="./index.html">Home</a>
+        <a href="./about.html">About</a>
+        <a href="./contact.html">Contact</a>
+        <a href="./projects.html">Projects</a>
+    </nav>
+    <img id="mainImage" src="./assets/Profile.jpg" alt="Picture of Crystal Brock"/>
+    <section class="mainInfo">
+        <h2>Crystal Brock</h2>
+        <button id="projects" window.open(projects.html)>See All My Projects</button>
+        <p>
+            I began classes on September 28th 2020.
+            <br>
+            I anticipate being eligible for endorsement around the end of March 2021.
+            <br>
+            Want to know more about me? Checkout my <a href="./about.html">About Page</a>.
+        </p>
+        
+    </section>
+    <section class="mainGallery">
+        <img id="mainGallery1" src="./assets/project1.jpg" alt="Picture of project"/>
+        <img id="mainGallery2" src="./assets/project2.jpg" alt="Picture of project"/>
+        <img id="mainGallery3" src="./assets/project3.jpg" alt="Picture of project"/>
+        <img id="mainGallery4" src="./assets/project4.jpg" alt="Picture of project"/>
+        <img id="mainGallery5" src="./assets/project5.jpg" alt="Picture of project"/>
+        <img id="mainGallery6" src="./assets/project6.png" alt="Picture of project"/>
+        <img id="mainGallery7" src="./assets/project7.jpg" alt="Picture of project"/>
+        <img id="mainGallery8" src="./assets/project8.jpg" alt="Picture of project"/>
+    </section>
+    <footer>
+        <h2>Like what you see?</h2>
+        <button id="contact" window.open(contact.html)>Contact Me</button>
+        <nav>
+            <a href="">Twitter</a>
+            <a href="">LinkedIn</a>
+            <a href="">GitHub</a>
+        </nav>
+    </footer>
 
-<h3 class="h3-personal">Pets</h3>
-<p>I have two cats.</p>
-<ul>
-<li class="petname"><strong>Zelda</strong><br><img src="https://assets.codepen.io/4998924/IMG_20151107_192314414.jpg"/><img src="https://assets.codepen.io/4998924/IMG_20151202_035553367.jpg"/></li><br>
-<ul class="petattributes">
-    <li>Half Maine Coon</li>
-    <li>Black</li>
-    <li>Very Long Hair</li>
-    <li>11 Years Old</li>
-  </ul>
-
-</li>
-<li class="petname"><strong>Oscar</strong><br><img src="https://assets.codepen.io/4998924/IMG_20160123_062054035.jpg"/><img src="https://assets.codepen.io/4998924/IMG_20160305_154659319.jpg"/></li>
-<br>
-<ul class="petattributes">
-    <li>American Short Hair</li>
-    <li>Grey and White</li>
-    <li>Short Silky Hair</li>
-    <li>6 Years Old</li>
-</ul>
-</ul>
-<p>I am considering fostering kitties for our local rescue once I see how much time I will have to work with them.</p>
-<table id="table">
-  <thead>
-    <tr id="table-head">
-      <th>Pet Name</th>
-      <th>Color</th>
-      <th>Coat</th>
-      <th>&nbsp;</th>
-      <th>Age</th>
-      <th>&nbsp;</th>
-      </thead>
-  <tbody>
-    <tr>
-      <td>Zelda</td>
-      <td class="column2">Black</td>
-      <td class="column2-3-4" colspan="2">&nbsp;&nbsp;&nbsp;Long Hair&nbsp;</td>
-      <td class="column2-3-4" colspan="2">&nbsp;&nbsp;&nbsp;11 years&nbsp;</td>
-    </tr>
-    <tr>
-      <td>Oscar</td>
-      <td class="column2">Grey/White</td>
-      <td class="column2-3-4" colspan="2">&nbsp;&nbsp;&nbsp;Short Hair&nbsp;</td>
-      <td class="column2-3-4" colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6 years&nbsp;</td>
-    </tr>
-  </tbody>
-</table>
-
+</body>
+</html>
 
 
 
