@@ -388,18 +388,15 @@ nav a:hover{
 }
 /*Start CSS for main page*/
 .mainInfo{
-  position: relative;
-  right: -50rem;
-  top: -40.30rem;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
-  width: 64vw;
   height: 40rem;
   font-size: 2rem;
   line-height: 2.5rem;
   background-color: #6e6e6b;
+  margin:5rem 10rem 5rem;
 }
 .mainInfo a{
   color: #1E1B2D;
@@ -417,8 +414,7 @@ nav a:hover{
   margin-top: 2.5rem;
   padding-left: 2.5rem;
   align-self: flex-start;
-  height: 40rem;
-  background-color: #6e6e6b;
+  height: 36rem;
 }
 #projects, #contact{
   border: ridge #483D8B .7rem;
