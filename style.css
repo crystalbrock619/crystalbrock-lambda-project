@@ -397,10 +397,10 @@ nav a:hover{
   line-height: 2.5rem;
   background-color: #6e6e6b;
   margin:5rem 10rem 5rem;
+  color: #1E1B2D;
 }
 .mainInfo a{
-  color: #1E1B2D;
-  text-decoration: none;
+  color: #1E1B2D
 }
 .mainInfo a:hover{
   text-decoration: underline;
@@ -420,6 +420,7 @@ nav a:hover{
 #projects, #contact{
   border: ridge #483D8B .7rem;
   background-color: #675DA5;
+  color: #1E1B2D;
   padding: .5rem;
   height: 4.2rem;
   line-height: 2.1rem;
@@ -441,6 +442,8 @@ nav a:hover{
   padding-bottom: 10rem;
   margin-bottom: 20rem;
   margin-top: -20rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
   column-gap: 2rem;
   row-gap:2rem;
 }
@@ -487,15 +490,17 @@ nav a:hover{
   font-size: 3.3rem;
   font-weight: bold;
 }
-.aboutHobbies, .aboutPets ul{
+.aboutHobbies ul, .aboutPets ul{
   line-height: 1.6;
-  margin-left: 5rem;
   color: #1E1B2D;
+  margin-left: 15rem;
 }
 .aboutInfo{
   display: grid;
   grid-template-columns: 48% 4% 48%;
   font-size: 2rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
 }
 #p1{
   grid-column-start: 1;
@@ -519,15 +524,19 @@ nav a:hover{
 .aboutHobbies, .aboutPets{
   font-size: 2rem;
 }
+.aboutHobbies p{
+  margin-left: 10rem;
+}
 .aboutHobbies video{
   width: auto;
   height: 35rem;
-  margin-left: 30rem;
+  margin-left: 15rem;
   margin-right: auto;
+  border: ridge #483D8B 1rem;
 }
 #caption{
-  font-size: 1rem;
-  margin-left: 35rem;
+  font-size: 1.6rem;
+  margin-left: 20rem;
 }
 .petname{
   color: #1E1B2D;
@@ -535,6 +544,7 @@ nav a:hover{
   font-size: 4rem;
   margin-left: 5rem;
   margin-bottom: 0rem;
+  text-decoration: underline;
 }
 .aboutPets img{
   border: ridge #483D8B 1rem;
@@ -542,6 +552,9 @@ nav a:hover{
   width: auto;
   padding: 1rem;
   background-color: #675DA5;
+  margin-left: 5rem;
+}
+.aboutPets p{
   margin-left: 5rem;
 }
 /*BEGIN CSS FOR CONTACT PAGE*/
@@ -569,90 +582,7 @@ nav a:hover{
   align-items: baseline;
   margin: 2rem 5rem 2rem 15rem;
   height: 100rem;
-  /*grid-template-columns: repeat(5, auto);
-  grid-template-rows: repeat(4, auto);
-  grid-gap: 10px 10px;*/
 }
-  /*#projectsGalleryImg1{
-    grid-column-start: 1;
-    grid-row-start: 1;
-  }
-  #projectsGalleryImg2{
-    grid-row-start: 2;
-    grid-column-start: 1;
-  }
-  #projectsGalleryImg3{
-    grid-row-start: 3;
-    grid-column-start: 1;
-  }
-  #projectsGalleryImg4{
-    grid-row-start: 4;
-    grid-column-start: 1;
-  }
-  #projectsGalleryImg5{
-    grid-row-start: 5;
-    grid-column-start: 1;
-  }
-  #projectsGalleryImg6{
-    grid-row-start: 1;
-    grid-column-start:2;
-  }
-  #projectsGalleryImg7{
-    grid-row-start: 2;
-    grid-column-start: 2;
-  }
-  #projectsGalleryImg8{
-    grid-row-start: 3;
-    grid-column-start: 2;
-  }
-  #projectsGalleryImg9{
-    grid-row-start: 4;
-    grid-column-start: 2;
-  }
-  #projectsGalleryImg10{
-    grid-row-start: 5;
-    grid-column-start: 2;
-  }
-  #projectsGalleryImg11{
-    grid-row-start: 1;
-    grid-column-start: 3;
-  }
-  #projectsGalleryImg12{
-    grid-row-start: 2;
-    grid-column-start: 3;
-  }
-  #projectsGalleryImg13{
-    grid-row-start: 3;
-    grid-column-start: 3;
-  }
-  #projectsGalleryImg14{
-    grid-row-start: 4;
-    grid-column-start: 3;
-  }
-  #projectsGalleryImg15{
-    grid-row-start: 5;
-    grid-column-start: 3;
-  }
-  #projectsGalleryImg16{
-    grid-row-start: 1;
-    grid-column-start: 4;
-  }
-  #projectsGalleryImg17{
-    grid-row-start: 2;
-    grid-column-start: 4;
-  }
-  #projectsGalleryImg18{
-    grid-row-start: 3;
-    grid-column-start: 4;
-  }
-  #projectsGalleryImg19{
-    grid-row-start: 4;
-    grid-column-start: 4;
-  }
-  #projectsGalleryImg20{
-    grid-row-start: 5;
-    grid-column-start: 4;
-  }*/
 /*BEGIN CSS FOR FOOTER*/
 footer{
   display: flex;
@@ -667,5 +597,6 @@ footer h2{
   font-size: 4rem;
   margin-bottom: .5rem;
   margin-top: .5rem;
+  color: #1E1B2D
 }
 
