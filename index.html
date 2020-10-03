@@ -9,16 +9,16 @@
 <body>
     <h1>Crystal Brock</h1>
     <nav>
-        <a href="./index.html">Home</a>
-        <a href="./about.html">About</a>
-        <a href="./contact.html">Contact</a>
-        <a href="./projects.html">Projects</a>
+        <a class="headnav" href="./index.html">Home</a>
+        <a class="headnav" href="./about.html">About</a>
+        <a class="headnav" href="./contact.html">Contact</a>
+        <a class="headnav" href="./projects.html">Projects</a>
     </nav>
     
     <section class="mainInfo">
         <img id="mainImage" src="./assets/Profile.jpg" alt="Picture of Crystal Brock"/>
         <h2>Crystal Brock</h2>
-        <button id="projects" window.open(projects.html)>See All My Projects</button>
+        <button id="projects" onclick="seeprojects()">See All My Projects</button>
         <p>
             I began classes on September 28th 2020.
             <br>
@@ -40,23 +40,8 @@
     </section>
     <footer>
         <h2>Like what you see?</h2>
-        <button id="contact" window.open(contact.html)>Contact Me</button>
-        <!--<nav>
-            <a href="">Twitter</a>
-            <a href="">LinkedIn</a>
-            <a href="">GitHub</a>
-        </nav>-->
+        <button id="contact" onclick="contactbutton()">Contact Me</button>
     </footer>
-
-</body>
-</html>
-
-
-
-
-
-
-
-    <script src="index.js"></script>
+<script src="index.js"></script>
 </body>
 </html>

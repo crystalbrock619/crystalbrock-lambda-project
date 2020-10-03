@@ -1,3 +1,6 @@
-function visit(){
-  window.open("https://www.github.com/crystalbrock619", "_blank"); 
+function contactbutton(){
+  window.open("./contact.html"); 
+  }
+function seeprojects(){
+  window.open("./projects.html"); 
   }
