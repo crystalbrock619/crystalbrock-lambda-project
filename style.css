@@ -443,7 +443,6 @@ nav a:hover{
   margin-top: -20rem;
   column-gap: 2rem;
   row-gap:2rem;
-  
 }
 #mainGallery1{
   grid-column-start: 2;
@@ -545,10 +544,121 @@ nav a:hover{
   background-color: #675DA5;
   margin-left: 5rem;
 }
+/*BEGIN CSS FOR CONTACT PAGE*/
+.contactlist{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contactlist a{
+  color: #1E1B2D;
+  padding: 1rem;
+  font-size: 2rem;
+  background:transparent;
+  margin:5rem 10rem 5rem;
+}
+.contactlist a:hover{
+  font-size: 2.5rem;
+}
+/*BEGIN CSS FOR PROJECTS PAGE*/
+.projectsGallery{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  align-items: baseline;
+  margin: 2rem 5rem 2rem 15rem;
+  height: 100rem;
+  /*grid-template-columns: repeat(5, auto);
+  grid-template-rows: repeat(4, auto);
+  grid-gap: 10px 10px;*/
+}
+  /*#projectsGalleryImg1{
+    grid-column-start: 1;
+    grid-row-start: 1;
+  }
+  #projectsGalleryImg2{
+    grid-row-start: 2;
+    grid-column-start: 1;
+  }
+  #projectsGalleryImg3{
+    grid-row-start: 3;
+    grid-column-start: 1;
+  }
+  #projectsGalleryImg4{
+    grid-row-start: 4;
+    grid-column-start: 1;
+  }
+  #projectsGalleryImg5{
+    grid-row-start: 5;
+    grid-column-start: 1;
+  }
+  #projectsGalleryImg6{
+    grid-row-start: 1;
+    grid-column-start:2;
+  }
+  #projectsGalleryImg7{
+    grid-row-start: 2;
+    grid-column-start: 2;
+  }
+  #projectsGalleryImg8{
+    grid-row-start: 3;
+    grid-column-start: 2;
+  }
+  #projectsGalleryImg9{
+    grid-row-start: 4;
+    grid-column-start: 2;
+  }
+  #projectsGalleryImg10{
+    grid-row-start: 5;
+    grid-column-start: 2;
+  }
+  #projectsGalleryImg11{
+    grid-row-start: 1;
+    grid-column-start: 3;
+  }
+  #projectsGalleryImg12{
+    grid-row-start: 2;
+    grid-column-start: 3;
+  }
+  #projectsGalleryImg13{
+    grid-row-start: 3;
+    grid-column-start: 3;
+  }
+  #projectsGalleryImg14{
+    grid-row-start: 4;
+    grid-column-start: 3;
+  }
+  #projectsGalleryImg15{
+    grid-row-start: 5;
+    grid-column-start: 3;
+  }
+  #projectsGalleryImg16{
+    grid-row-start: 1;
+    grid-column-start: 4;
+  }
+  #projectsGalleryImg17{
+    grid-row-start: 2;
+    grid-column-start: 4;
+  }
+  #projectsGalleryImg18{
+    grid-row-start: 3;
+    grid-column-start: 4;
+  }
+  #projectsGalleryImg19{
+    grid-row-start: 4;
+    grid-column-start: 4;
+  }
+  #projectsGalleryImg20{
+    grid-row-start: 5;
+    grid-column-start: 4;
+  }*/
+/*BEGIN CSS FOR FOOTER*/
 footer{
   display: flex;
   flex-direction: column;
-  height: 15rem;
+  height: 8rem;
+  border-top: ridge #483D8B 1rem;
   background-color: #6e6e6b;
   padding-bottom: 5.5rem;
 }
@@ -558,15 +668,4 @@ footer h2{
   margin-bottom: .5rem;
   margin-top: .5rem;
 }
-footer nav{
-  border: none;
-}
-footer nav a:hover{
-  color: #1E1B2D;
-  text-decoration: none;
-  padding: 1rem;
-  font-size: 2.5rem;
-  background:transparent;
-  border-radius: 50% 0;
-  text-decoration: underline;
-}
+
