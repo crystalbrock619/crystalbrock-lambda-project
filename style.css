@@ -593,7 +593,7 @@ nav a:hover{
 }
 #projectsGallery2{
   grid-row-start: 1;
-  grid-column-start: 3;
+  grid-column-start: 2;
 }
 #projectsGallery3{
   grid-column-start: 3;
