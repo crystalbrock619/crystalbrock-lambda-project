@@ -583,10 +583,9 @@ nav a:hover{
   margin: 2rem 5rem 2rem 15rem;
   height: 100rem;
 }
-
-.projectsGallery a{
-  height: 100px;
-  width: 100px;
+.projectsGallery img{
+   height: 100px;
+   width: 100px;
 }
 /*BEGIN CSS FOR FOOTER*/
 footer{
