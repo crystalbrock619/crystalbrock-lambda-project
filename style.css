@@ -588,12 +588,16 @@ nav a:hover{
   row-gap:2rem;
 }
 #projectsGallery1{
-  grid-column-start: 2;
-  grid-row-start: 2;
+  grid-column-start: 1;
+  grid-row-start: 1;
 }
 #projectsGallery2{
-  grid-row-start: 2;
-  grid-column-start: 4;
+  grid-row-start: 1;
+  grid-column-start: 3;
+}
+#projectsGallery3{
+  grid-column-start: 3;
+  grid-row-start: 1;
 }
 .projectsGallery img{
    height: 100px;
