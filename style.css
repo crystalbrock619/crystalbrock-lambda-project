@@ -583,6 +583,10 @@ nav a:hover{
   margin: 2rem 5rem 2rem 15rem;
   height: 100rem;
 }
+#projectsGalleryImg2{
+   height: 100rem;
+   width: 100rem;
+}
 /*BEGIN CSS FOR FOOTER*/
 footer{
   display: flex;
