@@ -363,8 +363,14 @@ h1{
   border: ridge #483D8B 1rem;
   margin:5rem 10rem 5rem;
 }
-#txtlookforfigure{
-  height: 40px;
+#txtlookfor{
+  height: 20px;
+}
+#txtlookforbutton{
+   height: 20px;
+}
+#txtlookforcaption{
+   font-size: 5px;
 }
 nav{
   display: flex;
