@@ -11,7 +11,8 @@ function search() {
       location.href=query
     }
     else{
-        
+      //if text box empty show alert
+      alert("Please type the word or phrase that you would like to search for.");
     }
 }
 function contactbutton(){
