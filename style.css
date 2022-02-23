@@ -367,10 +367,10 @@ h1{
   height: 20px;
 }
 #txtlookforbutton{
-   height: 20px;
+   height: 25px;
 }
 #txtlookforcaption{
-   font-size: 5px;
+   font-size: 15px;
 }
 nav{
   display: flex;
