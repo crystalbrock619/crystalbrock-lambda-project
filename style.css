@@ -440,37 +440,62 @@ nav a:hover{
   grid-template-columns: repeat(4, auto);
   grid-template-rows: repeat(2, 50%);
   padding-bottom: 10rem;
-  margin-bottom: 20rem;
-  margin-top: -20rem;
-  margin-left: 5rem;
-  margin-right: 5rem;
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+  margin-left: 40rem;
+  margin-right: 20rem;
   column-gap: 2rem;
   row-gap:2rem;
 }
 #mainGallery1{
-  grid-column-start: 2;
-  grid-row-start: 2;
+  grid-column-start: 1;
+  grid-row-start: 1;
+  font-size: 1.5rem;
+}
+#mainGallery1 figcaption{
+  margin-left: 25px;
 }
 #mainGallery2{
-  grid-row-start: 2;
-  grid-column-start: 4;
+  grid-row-start: 1;
+  grid-column-start: 2;
+  font-size: 1.5rem;
+}
+#mainGallery2 figcaption{
+  margin-left: 30px;
 }
 #mainGallery3{
-  grid-row-start: 2;
-  grid-column-start: 6;
+  grid-column-start: 3;
+  grid-row-start: 1;
+  font-size: 1.5rem;
+}
+#mainGallery3 figcaption{
+  margin-left: 50px;
 }
 #mainGallery4{
-  grid-row-start: 2;
-  grid-column-start: 8;
+  grid-column-start: 4;
+  grid-row-start: 1;
+  font-size: 1.5rem;
+}
+#mainGallery4 figcaption{
+  margin-left: -50px;
 }
 #mainGallery5{
-  grid-row-start: 4;
-  grid-column-start: 2;
+  grid-column-start: 1;
+  grid-row-start: 2;
+  font-size: 1.5rem;
+}
+#mainGallery5 figcaption{
+  margin-left: -40px;
 }
 #mainGallery6{
-  grid-row-start: 4;
-  grid-column-start:4;
+  grid-column-start: 2;
+  grid-row-start: 2;
+  font-size: 1.5rem;
 }
+#mainGallery6 figcaption{
+  margin-left: -10px;
+}
+
 #mainGallery7{
   grid-row-start: 4;
   grid-column-start: 6;
@@ -478,6 +503,10 @@ nav a:hover{
 #mainGallery8{
   grid-row-start: 4;
   grid-column-start: 8;
+}
+.mainGallery img{
+   height: 150px;
+   width: 150px;
 }
 /*Start CSS for about page*/
 .aboutHobbies h2, .aboutPets h2{
