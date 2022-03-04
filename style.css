@@ -585,10 +585,10 @@ nav a:hover{
   text-decoration: underline;
 }
 .aboutPets img{
-  border: ridge #483D8B 1rem;
+  border: ridge #483D8B .5rem;
   height: 20rem;
   width: auto;
-  padding: 1rem;
+  padding: .5rem;
   background-color: #675DA5;
   margin-left: 5rem;
 }
@@ -676,4 +676,35 @@ footer h2{
   margin-bottom: .5rem;
   margin-top: .5rem;
   color: #1E1B2D
+}
+#pictureZ, #pictureO {
+  text-align: center;
+  width: 600px;
+  margin: 1em auto;
+  border: none;
+  position: relative;
+  z-index: 10;
+}
+
+/* Color for FontAwesome icons */
+.fa {
+  color: white;
+}
+
+#previousO,
+#nextO, #previousZ,
+#nextZ {
+  position: absolute;
+  bottom: 45%;
+  opacity: 0.7;
+  z-index: 1000;
+}
+
+
+#previousO, #previousZ {
+  left: 10px;
+}
+
+#nextO, #nextZ {
+  right: 10px;
 }

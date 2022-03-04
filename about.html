@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Crystal Brock Portfolio-About</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crystal Brock Portfolio-About</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <!-- This allows you to use FontAwesome for arrows. From fontawesome.com-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="index.js"></script>
 </head>
+
 <body>
   <header>
     <h1>Crystal Brock</h1>
@@ -23,14 +28,22 @@
   </header>
   <section class="aboutInfo">
     <p id="p1">
-      I wrote my first program in Basic on a Commodore 64 and I loved it. Unfortunatly, way back then we didn't have code editors and hours spent searching for syntax errors was so frustrating for my 10 year old self I just gave it up.
-      Later, in junior high, I signed up for a summer program teaching how to code low res graphics in Basic. Again, I found I loved it and ended up with the most detailed project in the class.
-      Still no code editors though so after the program was over I didn't continue to code. As an adult I have spent the last decade as a professional truck driver.
-      </p> 
+      I wrote my first program in Basic on a Commodore 64 and I loved it. Unfortunatly, way back then we didn't have
+      code editors and hours spent searching for syntax errors was so frustrating for my 10 year old self I just gave it
+      up.
+      Later, in junior high, I signed up for a summer program teaching how to code low res graphics in Basic. Again, I
+      found I loved it and ended up with the most detailed project in the class.
+      Still no code editors though so after the program was over I didn't continue to code. As an adult I have spent the
+      last decade as a professional truck driver.
+    </p>
     <p id="p2">
-      After 10 years of driving for a living, I decided driving was just not satisfying my need to build design and create things.
-      I had been attempting to learn Java in my spare time, but found that motivation to practice coding after sitting behind a steering wheel for 60 hours a week was in short supply!
-      So, I decided I wanted to go to school for web development full time. My wonderful partner agreed to support our household while I attend school so  I applied to <a href="https://www.lambdaschool.com">Lambda School</a> and was accepted.
+      After 10 years of driving for a living, I decided driving was just not satisfying my need to build design and
+      create things.
+      I had been attempting to learn Java in my spare time, but found that motivation to practice coding after sitting
+      behind a steering wheel for 60 hours a week was in short supply!
+      So, I decided I wanted to go to school for web development full time. My wonderful partner agreed to support our
+      household while I attend school so I applied to <a href="https://www.lambdaschool.com">Lambda School</a> and was
+      accepted.
     </p>
   </section>
   <!--About Page Hobbies Section-->
@@ -50,35 +63,45 @@
   </section>
   <!--About page Pets Section-->
   <section class="aboutPets">
-      <h2>Pets</h2>
-      <h3 class="petname">Zelda</h3>
-      <br>
-      <img src="./assets/Zelda1.jpg"/>
-      <img src="./assets/Zelda2.jpg"/></li>
-      <br>
-      <ul class="petattributes">
-          <li>Half Maine Coon</li>
-          <li>Black</li>
-          <li>Very Long Hair</li>
-          <li>11 Years Old</li>
-      </ul>
-      <h3 class="petname">Oscar</h3>
-      <br>
-      <img src="./assets/Oscar1.jpg"/>
-      <img src="./assets/Oscar2.jpg"/>
-      <br>
-      <ul class="petattributes">
-          <li>American Short Hair</li>
-          <li>Grey and White</li>
-          <li>Short Silky Hair</li>
-          <li>6 Years Old</li>
-      </ul>
-      <p>I am considering fostering kitties for our local rescue once I see how much time I will have to work with them.</p>
-    </section>
-    <footer>
-      <h2>Like what you see?</h2>
-      <button id="contact" onclick="contactbutton()">Contact Me</button>
-    </footer>
-    <script src="index.js"></script>
+    <h2>Pets</h2>
+    <h3 class="petname">Zelda</h3>
+    <br>
+    <!-- Image holder and left/right arrows -->
+    <div id="pictureZ">
+      <img id='targetZ' alt='' />
+      <span id="previousZ" class="fa fa-angle-left fa-5x" onclick="slide(-1, 'Zelda')"></span>
+      <span id="nextZ" class="fa fa-angle-right fa-5x" onclick="slide(1, 'Zelda')"></span>
+    </div>
+    <br>
+    <ul class="petattributes">
+      <li>Half Maine Coon</li>
+      <li>Black</li>
+      <li>Very Long Hair</li>
+      <li>11 Years Old</li>
+    </ul>
+    <h3 class="petname">Oscar</h3>
+    <br>
+    <!-- Image holder and left/right arrows -->
+    <div id="pictureO">
+      <img id='targetO' alt='' />
+      <span id="previousO" class="fa fa-angle-left fa-5x" onclick="slide(-1, 'Oscar')"></span>
+      <span id="nextO" class="fa fa-angle-right fa-5x" onclick="slide(1, 'Oscar')"></span>
+    </div>
+    <br>
+    <ul class="petattributes">
+      <li>American Short Hair</li>
+      <li>Grey and White</li>
+      <li>Short Silky Hair</li>
+      <li>6 Years Old</li>
+    </ul>
+    <p>I am considering fostering kitties for our local rescue once I see how much time I will have to work with them.
+    </p>
+  </section>
+  <footer>
+    <h2>Like what you see?</h2>
+    <button id="contact" onclick="contactbutton()">Contact Me</button>
+  </footer>
+  <script src="index.js"></script>
 </body>
+
 </html>
