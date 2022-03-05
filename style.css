@@ -680,7 +680,7 @@ footer h2{
 #pictureZ, #pictureO {
   text-align: center;
   width: 600px;
-  margin: 1em auto;
+  margin: 10px;
   border: none;
   position: relative;
   z-index: 10;
