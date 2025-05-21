@@ -456,20 +456,20 @@ nav a:hover{
   column-gap: 2rem;
   row-gap:2rem;
 }
-#mainGallery6{
+#mainGallery5{
   grid-column-start: 1;
   grid-row-start: 1;
   font-size: 1.5rem;
 }
-#mainGallery6 figcaption{
+#mainGallery5 figcaption{
   margin-left: 25px;
 }
-#mainGallery7{
+#mainGallery6{
   grid-row-start: 1;
   grid-column-start: 2;
   font-size: 1.5rem;
 }
-#mainGallery7 figcaption{
+#mainGallery6 figcaption{
   margin-left: 30px;
 }
 .mainGallery img{
