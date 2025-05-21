@@ -456,62 +456,21 @@ nav a:hover{
   column-gap: 2rem;
   row-gap:2rem;
 }
-#mainGallery1{
-  grid-column-start: 1;
-  grid-row-start: 1;
-  font-size: 1.5rem;
-}
-#mainGallery1 figcaption{
-  margin-left: 25px;
-}
-#mainGallery2{
-  grid-row-start: 1;
-  grid-column-start: 2;
-  font-size: 1.5rem;
-}
-#mainGallery2 figcaption{
-  margin-left: 30px;
-}
-#mainGallery3{
-  grid-column-start: 3;
-  grid-row-start: 1;
-  font-size: 1.5rem;
-}
-#mainGallery3 figcaption{
-  margin-left: 50px;
-}
-#mainGallery4{
-  grid-column-start: 4;
-  grid-row-start: 1;
-  font-size: 1.5rem;
-}
-#mainGallery4 figcaption{
-  margin-left: -50px;
-}
-#mainGallery5{
-  grid-column-start: 1;
-  grid-row-start: 2;
-  font-size: 1.5rem;
-}
-#mainGallery5 figcaption{
-  margin-left: -40px;
-}
 #mainGallery6{
-  grid-column-start: 2;
-  grid-row-start: 2;
+  grid-column-start: 1;
+  grid-row-start: 1;
   font-size: 1.5rem;
 }
 #mainGallery6 figcaption{
-  margin-left: -10px;
+  margin-left: 25px;
 }
-
 #mainGallery7{
-  grid-row-start: 4;
-  grid-column-start: 6;
+  grid-row-start: 1;
+  grid-column-start: 2;
+  font-size: 1.5rem;
 }
-#mainGallery8{
-  grid-row-start: 4;
-  grid-column-start: 8;
+#mainGallery7 figcaption{
+  margin-left: 30px;
 }
 .mainGallery img{
    height: 150px;
